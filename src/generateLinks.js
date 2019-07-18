@@ -23,7 +23,7 @@
   function generateLinks() {
     clearAll();
 
-    const imgs = document.querySelectorAll('.css-1dbjc4n.r-psjefw img');
+    const imgs = document.querySelectorAll('.css-1dbjc4n.r-19i43ro .css-1dbjc4n.r-1adg3ll img');
     imgs.forEach(img => {
       const closest = img.closest('.css-1dbjc4n.r-1iusvr4.r-46vdb2.r-5f2r5o.r-bcqeeo');
       const elem = createLink(img.src);
