@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Twitter Ext",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Allow adding script on Twitter.com",
   "permissions": [
     "contextMenus",
