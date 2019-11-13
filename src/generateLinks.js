@@ -26,7 +26,7 @@
     const imgs = document.querySelectorAll('.css-1dbjc4n.r-18u37iz.r-thb0q2 .r-psjefw .css-1dbjc4n img');
 
     imgs.forEach(img => {
-      const closest = img.closest('.css-1dbjc4n.r-1iusvr4.r-46vdb2.r-5f2r5o.r-bcqeeo');
+      const closest = img.closest('.css-1dbjc4n.r-1iusvr4');
       const elem = createLink(img.src);
       closest.appendChild(elem);
     });
